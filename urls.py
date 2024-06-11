@@ -1,0 +1,6 @@
+CANVAS_URL = 'https://byu.instructure.com/'
+API_URL = CANVAS_URL + '/api/v1/'
+CURRENT_COURSES = API_URL + 'courses?enrollment_state=active&state=available'
+COURSE_ASSIGNMENTS = API_URL + 'users/{}/courses/{}/assignments'
+ASSIGNMENT_SUBMISSION = API_URL + 'courses/{}/assignments/{}/submissions/{}'
+SELF_ID = API_URL + 'users/self'
