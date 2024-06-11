@@ -1,7 +1,7 @@
 import json
 import requests
 
-from url_config import *
+from Pooler.url_config import *
 
 class CanvasAPI:
     def __init__(self, token):
